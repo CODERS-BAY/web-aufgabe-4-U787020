@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zoo">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/styling.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <h1>Kontaktformular</h1>
+ </head>
+ <body>
+    <form action="ausgabe.html" method="get">
+    <p>
+        <label for="Name">Name</label>
+        <input type="text" name="Name" id="Name">
+    </p>
+    <p>
+        <label for="Mailadresse">E-Mail</label>
+        <input type="email" name="Mailadresse" id="Mailadresse">
+    </p>
+    <p>
+        <label for="Besuchstag">Besuchsdatum</label>
+        <input type="date" name="Besuchstag" id="Besuchstag">
+    </p>
+    <p>
+        <label for="time">Besuchszeit</label>
+        <input type="time" name="Besuchszeit" id="Besuchszeit">
+    </p>
+    <p>
+        <label for="range">Hat es gefallen?</label> 
+        <input type="range" name="Hat es gefallen?" id="Hat es gefallen?">
+    </p>
+    <p>
+        <label for="Weiterempfehlung">J/N</label>
+        <input type="checkbox" name="Weiterempfehlung" id="Weiterempfehlung">
+    </p>
+    <p>
+        <label for="datalist">Welche Tierart hat am besten gefallen?</label>
+        <input type="datalist" name="Welche Tierart hat am besten gefallen?" id="Welche 
+        Tierart hat am besten gefallen?">
+    </p>
+    <p>
+        <label for="Kommentar">Kommentar</label>
+        <textarea rows="5" cols="20" name="Kommentar" id="Kommentar"></textarea>
+    </p>
+    <p>
+        <label for="Besucherinfo">Besucherinfo</label>
+        <select name="Besucherinfo" id="Besucherinfo">
+            <option value="1">Familienausflug</option>
+            <option value="2">Allein unterwegs</option>
+            <option value="3">Gruppenausflug</option>
+            <option value="4">Ausflug mit Freunden</option>
+            <option value="5">Etwas anderes</option>
+        </select>
+    <p>
+        <button type="submit">Absenden</button>
+    </p>
+    <p>
+        <button type="reset">Reset</button>
+    </p>
+     </form>
+</body>
